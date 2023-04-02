@@ -1,13 +1,13 @@
-package ru.l92169.bioinformatics_project;
+package com.bioinformatics.spring.security.postgresql;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BioinformaticsProjectApplication {
+public class SpringBootSecurityPostgresqlApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BioinformaticsProjectApplication.class, args);
+		SpringApplication.run(SpringBootSecurityPostgresqlApplication.class, args);
 	}
 
 }
